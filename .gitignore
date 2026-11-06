@@ -4,13 +4,11 @@
 
 #. Python cache
 __pycache__/
+*.pyc
 
-#. Custom
-/temp/
 
 #. ROS2 build Output
 build/
 install/
 log/
-*.pyc
 .env
