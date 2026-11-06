@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.8)
+project(yahboom_vehicle)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY launch urdf meshes DESTINATION share/${PROJECT_NAME})
+install(PROGRAMS scripts/odom_bridge.py scripts/vehicle_config.py DESTINATION lib/${PROJECT_NAME})
+ament_package()
