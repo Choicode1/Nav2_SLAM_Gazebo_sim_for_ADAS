@@ -39,3 +39,15 @@ sudo apt install -y \
   ros-humble-nav2-bringup
 ```
 
+## 토픽 리스트
+### Nav2 Gazebo sim
+| 토픽 | 발행 주체 |
+| :--- | :--- |
+| /scan | Gazebo LiDAR Bridge |
+| /image_raw | Gazebo Camera Bridge |
+| /image_raw/compressed | Image Transport |
+| /odom | Gazebo 구동 플러그인 |
+| /tf | Robot State Publisher / 구동 플러그인 |
+| /map | SLAM Toolbox |
+| /cmd_vel_nav | Nav2 |
+
